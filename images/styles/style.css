@@ -29,11 +29,70 @@
     color:#444343;
     margin: 10px;
 }
-.btn-primary{
+.btn-btn{
     background-color: #F15B22;
     color: #ffffff;
     margin:10px;
     font-size: 20px;
     padding: 5px;
     border:none;
+}
+.pharess-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pharess-section img{
+    width: 450px;
+    height: 520px;
+    margin:130px 120px;
+}
+.header-second{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.para2{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+ul li{
+    list-style: none;
+}
+ 
+.plan-head{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.plan{
+    width: 1150px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.future-plans img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 16px;
+ }
+ #grad1{
+    height: 200px;
+    background-color: red;
+    background-image: linear-gradient(to right,red,yellow);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+ }
+ #grad1 h3{
+    padding-top: 80px;
+    padding-left: 100px;
+ }
+ #grad1 button{
+    color: #F15B22;
+    padding: 5px;
+    margin-left: 100px;
 }
