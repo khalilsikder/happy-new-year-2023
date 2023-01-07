@@ -82,10 +82,10 @@ ul li{
  #grad1{
     height: 200px;
     background-color: red;
-    background-image: linear-gradient(to right,red,yellow);
+    background-image: linear-gradient(to right,red,yellow),url('/images/watch.png');
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
  }
  #grad1 h3{
     padding-top: 80px;
@@ -101,10 +101,23 @@ ul li{
  display: flex;
  justify-content: space-between;
  align-items: center;
- margin-left: 150px;
- margin-right: 150px;
+ height: 450px;
+ padding-left: 50px;
+ margin-left: 100px;
+ margin-right: 100px;
  margin-bottom: 20px;
 }
- ul li{
+ .ul-list li{
     display: inline;
+}
+.footer-content{
+    color: #ffffff;
+}
+.footer-form{
+color: #ffffff;
+padding-right:40px;
+}
+.footer-form input{
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
