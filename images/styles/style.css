@@ -96,3 +96,15 @@ ul li{
     padding: 5px;
     margin-left: 100px;
 }
+.footer-section{
+ background-color:#151414;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-left: 150px;
+ margin-right: 150px;
+ margin-bottom: 20px;
+}
+ ul li{
+    display: inline;
+}
